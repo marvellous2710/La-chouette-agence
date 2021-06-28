@@ -374,6 +374,30 @@ a:hover {
     font-size: 22px;
 }
 
+.text-center{
+    margin-top: 40px;
+}
+/* FOOTER */
+
+aside h2{
+    text-align: center;
+    margin: 50px;
+}
+.confiance{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.confiance ul{
+    list-style: none;
+}
+
+.confiance p{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
 /* FIN CORRECTION */
 
 @media (min-width: 768px) {
