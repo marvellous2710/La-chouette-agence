@@ -377,16 +377,25 @@ a:hover {
 .text-center{
     margin-top: 40px;
 }
+
+.page-container{
+    background-image: url(img/lines-h2-bg.png);
+}
 /* FOOTER */
 
 aside h2{
     text-align: center;
     margin: 50px;
+    font-size: 30px;
 }
+
 .confiance{
     display: flex;
     justify-content: space-around;
     padding-bottom: 40px;
+    background-color: #F3976C;
+    margin: 100px;
+    padding: 20PX;    
 }
 
 .confiance ul{
@@ -396,6 +405,11 @@ aside h2{
 .confiance p{
     font-size: 20px;
     margin-left: 40px;
+}
+
+.img-footer-logo{
+    text-align: center;
+    margin-top: 40px;
 }
 
 /* FIN CORRECTION */
@@ -439,7 +453,9 @@ aside h2{
         float: none;
         margin: 10px auto 0;
     }
-}
+
+}    
+
 
 .nav > li > .dropdown a {
     background: none!important;
@@ -863,6 +879,20 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+
+
+/* CORRECTION */
+
+.row-no-gutters{
+    display: flex;
+    justify-content: space-around;
+    }
+
+
+/* FIN CORRECTION */
+
+
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1071,10 +1101,34 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .row-no-gutters{
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .row-no-gutters{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .confiance{
+    margin: 0;
+    flex-direction: column;
+    }  
+
+    .confiance p{
+        margin-left: 30px;
+    } 
+    
+    .agenceseo, .site{
+    margin-top: 10px; 
+    padding-top: 10px;
     }
 }
