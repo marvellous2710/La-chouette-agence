@@ -381,6 +381,15 @@ a:hover {
 .page-container{
     background-image: url(img/lines-h2-bg.png);
 }
+
+.form-control{
+    width: 100%;
+    margin: 20px;
+    padding: 10PX;
+    background-color: #F3976C;
+    color: white;
+    border: none;
+}
 /* FOOTER */
 
 aside h2{
@@ -407,9 +416,33 @@ aside h2{
     margin-left: 40px;
 }
 
+.text-center{
+    text-align: center;
+}
 .img-footer-logo{
     text-align: center;
     margin-top: 40px;
+}
+
+/* CONTACT */
+
+.bloc .container{
+    padding-top: 50px;
+}
+
+.col-sm-6{
+    margin-left: -15px;
+}
+
+.col-sm-6 p{
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+button.bloc-button.btn.btn-lg.btn-block.cta-hero.btn-atomic-tangerine{
+    margin-left: 20px; 
 }
 
 /* FIN CORRECTION */
@@ -888,6 +921,7 @@ h4 {
     justify-content: space-around;
     }
 
+}
 
 /* FIN CORRECTION */
 
