@@ -427,23 +427,37 @@ aside h2{
 /* CONTACT */
 
 .bloc .container{
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
-.col-sm-6{
+.col-sm-7{
     margin-left: -15px;
 }
 
-.col-sm-6 p{
+.col-sm-7 p{
     margin-top: 100px;
     margin-left: 20px;
     font-size: 20px;
     white-space: nowrap;
 }
 
+.col-sm-7 p i.fas.fa-home{
+    margin-right: 10px;
+}
+
+.fa-calendar-alt{
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.col-sm-7 p i.fa-envelope{
+    margin-right: 12px;
+}
+
 button.bloc-button.btn.btn-lg.btn-block.cta-hero.btn-atomic-tangerine{
     margin-left: 20px; 
 }
+
 
 /* FIN CORRECTION */
 
@@ -1140,6 +1154,19 @@ h4 {
         display: flex;
         justify-content: space-around;
     }
+
+    .form-control{
+        width: 92%;
+    }
+
+    button.bloc-button.btn.btn-lg.btn-block.cta-hero.btn-atomic-tangerine{
+        width: 92%; 
+    }
+
+    .col-sm-7 p{
+        font-size: 15px;
+        margin-left: 10px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1147,11 +1174,14 @@ h4 {
         text-align: center;
     }
 
+
     .row-no-gutters{
         display: flex;
         justify-content: space-around;
     }
 
+
+    
     .confiance{
     margin: 0;
     flex-direction: column;
@@ -1165,4 +1195,6 @@ h4 {
     margin-top: 10px; 
     padding-top: 10px;
     }
+
+
 }
