@@ -390,7 +390,7 @@ a:hover {
     color: white;
     border: none;
 }
-/* FOOTER */
+
 
 aside h2{
     text-align: center;
@@ -457,6 +457,7 @@ aside h2{
 button.bloc-button.btn.btn-lg.btn-block.cta-hero.btn-atomic-tangerine{
     margin-left: 20px; 
 }
+
 
 
 /* FIN CORRECTION */
@@ -837,7 +838,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #3e3e3e!important;
 }
 
 .portfolio-thumb {
