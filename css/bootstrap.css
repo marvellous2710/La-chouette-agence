@@ -3163,7 +3163,7 @@ output {
 }
 
 .form-control::-moz-placeholder {
-    color: #999;
+    color: white;
     opacity: 1
 }
 
@@ -3172,7 +3172,7 @@ output {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #999
+    color: white;
 }
 
 .form-control[disabled],

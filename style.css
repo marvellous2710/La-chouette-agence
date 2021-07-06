@@ -424,6 +424,10 @@ aside h2{
     margin-top: 40px;
 }
 
+.partenaires li, .agenceseo li, .site li{
+    margin: 5px;
+}
+
 /* CONTACT */
 
 .bloc .container{
@@ -778,9 +782,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -934,9 +935,8 @@ h4 {
 .row-no-gutters{
     display: flex;
     justify-content: space-around;
-    }
-
 }
+
 
 /* FIN CORRECTION */
 
@@ -1184,8 +1184,9 @@ h4 {
 
     
     .confiance{
-    margin: 0;
-    flex-direction: column;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
     }  
 
     .confiance p{
@@ -1193,9 +1194,15 @@ h4 {
     } 
     
     .agenceseo, .site{
-    margin-top: 10px; 
-    padding-top: 10px;
+        margin-top: 10px; 
+        padding-top: 10px;
     }
 
+    .partenaires{
+        margin-right: 45px
+    }
 
+    .site{
+        margin-right: 30px;
+    }
 }
